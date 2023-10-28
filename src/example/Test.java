@@ -5,6 +5,9 @@ import example.client.CalTax_PortType;
 
 import java.util.Scanner;
 
+/**
+ * @author redA
+ */
 public class Test {
     public static void main(String[] argv) {
         try {

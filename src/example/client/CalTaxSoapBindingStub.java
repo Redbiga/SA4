@@ -87,6 +87,7 @@ public class CalTaxSoapBindingStub extends org.apache.axis.client.Stub implement
         }
     }
 
+    @Override
     public java.lang.String calTax(java.lang.String wages) throws java.rmi.RemoteException {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();

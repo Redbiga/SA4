@@ -1,6 +1,8 @@
 package example;
 
-//细节：注意更改server-config
+/**
+ * @author redA
+ */ //细节：注意更改server-config
 public class CalTax {
     public String CalTax(String wages){
         double[] start_wages = {85000, 60000, 40000, 30000, 17000, 8000, 5000, 1};

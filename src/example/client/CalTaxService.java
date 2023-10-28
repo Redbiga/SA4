@@ -8,7 +8,7 @@
 package example.client;
 
 public interface CalTaxService extends javax.xml.rpc.Service {
-    public java.lang.String getCalTaxAddress();
+    public java.lang.String getCalTaxAddress();;
 
     public example.client.CalTax_PortType getCalTax() throws javax.xml.rpc.ServiceException;
 
