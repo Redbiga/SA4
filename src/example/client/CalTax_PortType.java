@@ -8,5 +8,5 @@
 package example.client;
 
 public interface CalTax_PortType extends java.rmi.Remote {
-    public java.lang.String calTax(java.lang.String wages) throws java.rmi.RemoteException;
+  java.lang.String calTax(java.lang.String wages) throws java.rmi.RemoteException;
 }

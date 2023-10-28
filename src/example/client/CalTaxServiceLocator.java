@@ -24,6 +24,7 @@ public class CalTaxServiceLocator extends org.apache.axis.client.Service impleme
     // Use to get a proxy class for CalTax
     private java.lang.String CalTax_address = "http://localhost:8080//services/example/CalTax";
 
+    @Override
     public java.lang.String getCalTaxAddress() {
         return CalTax_address;
     }
